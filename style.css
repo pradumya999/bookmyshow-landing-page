@@ -27,6 +27,7 @@ body{
 }
 
 #top_bar_logo{
+    cursor: pointer;
     padding-right: 15px;
     padding-top: 7px;
 }
@@ -41,11 +42,13 @@ body{
     font-weight: 400;
     color: rgb(26, 26, 26);
     letter-spacing: 0.2px;
+    cursor: pointer;
     
 }
 
 #arrow{
     padding: 18px 10px 0px 10px;
+    cursor: pointer;
 }
 
 #sign-in{
@@ -70,6 +73,7 @@ body{
 
 #menu-bar{
     padding-top: 13px;
+    cursor: pointer;
 }
 
 .top_bar_2{
@@ -114,6 +118,7 @@ body{
 .poster{
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 8px;
+    cursor: pointer;
 }
 
 .titles{
@@ -122,6 +127,7 @@ body{
     color: rgb(34, 34, 34);
     font-size: 17px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .sub_titles{
@@ -134,10 +140,11 @@ body{
 }
 
 .banner{
-    padding-top: 100px;
-    padding-right: 80px;
-    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-right: 80px;
+    margin-bottom: 50px;
     display: flex;
+    cursor: pointer;
 }
 
 .live_events_parent{
@@ -147,6 +154,7 @@ body{
 .live_events{
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 #live-event{
@@ -188,6 +196,7 @@ body{
 .p_poster{
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 8px;
+    cursor: pointer;
 }
 
 .p_titles{
@@ -196,6 +205,7 @@ body{
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .p_sub_titles{
@@ -225,6 +235,7 @@ body{
 .s_poster{
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 8px;
+    cursor: pointer;
 }
 
 .s_titles{
@@ -233,6 +244,7 @@ body{
     color: rgb(34, 34, 34);
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .s_sub_titles{
@@ -247,7 +259,7 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: rgb(49, 48, 53);
-    padding: 15px 80px 0px 80px;
+    padding: 15px 80px 15px 80px;
 }
 
 #footer{
@@ -256,23 +268,26 @@ body{
 }
 
 #footer-img{
-    padding-top: 10px;
-    padding-right: 7px;
+    padding-top: 5px;
+    padding-right: 10px;
 }
 
 #footer-head{
     color: white;
     margin: 0px;
-    padding-right: 7px;
-    font-size: 16px;
+    padding-top: 14px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1;
 }
 
 #footer-head2{
     margin: 0px;
     color: white;
     font-size: 13px;
-    font-weight: lighter;
-    padding-top: 11px;
+    font-weight: 300;
+    padding-top: 20px;
 }
 
 #contact{
